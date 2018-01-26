@@ -14,11 +14,11 @@ body {
 
 /* Custom page header */
 .header {
+  padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
-  padding-bottom: 19px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
@@ -34,7 +34,7 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    /*max-width: 730px;*/
   }
 }
 .container-narrow > hr {
@@ -78,11 +78,7 @@ body {
   }
 }
 
-/*
-     FILE ARCHIVED ON 17:49:30 Oct 22, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:05:46 Jan 26, 2018.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
+ /* RD: making vertical align great again */
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
