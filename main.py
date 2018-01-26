@@ -56,6 +56,10 @@ def signUp():
         cursor.close()
         conn.close()
 
+@app.route('/showSignIn')
+def showSignin():
+    return render_template('signin.html')
+
 
 if __name__ == "__main__":
     app.run()
